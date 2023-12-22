@@ -1,0 +1,23 @@
+<div *ngIf="user">
+    <h2>{{getFullName(user)}} Details</h2>
+    <div>id: {{user.id}}</div>
+    <div>
+        <span>First Name: </span>
+        <span>{{user.firstName}}</span>
+    </div>    
+    <div>
+        <span>Last Name: </span>
+        <span>{{user.lastName}}</span>
+    </div>  
+    <div>
+        <span>Email: </span>
+        <span>{{user.email}}</span>
+    </div>
+    <button type="button" (click)="goBack()">go back</button>
+    <button type="button" (click)="removeUser(user)">Remove User</button>
+    <button type="button" (click)="enableEdit()">Edit User</button>
+    <div *ngIf="showEdit">
+        <app-user-form [userModel]="user" (onSubmit)="onSubmit($event)"></app-user-form>
+    </div>
+    
+</div>

@@ -1,0 +1,11 @@
+<h2>Users</h2>
+<ul class="users">
+    <li *ngFor="let user of users">
+        <a routerLink="/user/{{user.id}}">
+            <span>{{getFullName(user)}}</span>
+        </a>
+        <button type="button" (click)="removeUser(user)">Remove User</button>
+    </li>
+</ul>
+<h3>Add a new User</h3>
+<app-user-form (onSubmit)="onSubmit($event)"></app-user-form>

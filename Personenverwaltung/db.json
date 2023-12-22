@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "firstName": "Vinson",
+      "lastName": "Berger",
+      "email": "vinsonberger@rhenus.de"
+    },
+    {
+      "id": 1,
+      "firstName": "Fannie",
+      "lastName": "Hess",
+      "email": "fanniehess@rhenus.de"
+    },
+    {
+      "id": 2,
+      "firstName": "Rena",
+      "lastName": "Blackburn",
+      "email": "renablackburn@rhenus.de"
+    },
+    {
+      "id": 3,
+      "firstName": "Charlotte",
+      "lastName": "Holden",
+      "email": "charlotteholden@rhenus.de"
+    },
+    {
+      "id": 4,
+      "firstName": "Wood",
+      "lastName": "Savage",
+      "email": "woodsavage@rhenus.de"
+    },
+    {
+      "id": 5,
+      "firstName": "Sears",
+      "lastName": "Brock",
+      "email": "searsbrock@rhenus.de"
+    },
+    {
+      "id": 6,
+      "firstName": "Mallory",
+      "lastName": "Clark",
+      "email": "malloryclark@rhenus.de"
+    }
+  ]
+}
