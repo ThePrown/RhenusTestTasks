@@ -13,11 +13,9 @@
 5. Logik für FizzBuzz einarbeiten
 
 ## Angular Crud Application
-Vor dem start wird `npm i` erfordert
-Zur Nutzung der Applikation wird das starten des Backends gefordert
-`npx json-server --watch db.json`
-Die Applikation wird gestartet mit
-`ng serve`
+Vor dem start wird `npm i` erfordert</br>
+Zur Nutzung der Applikation wird das starten des Backends gefordert `npx json-server --watch db.json`</br>
+Die Applikation wird gestartet mit `ng serve`</br>
 
 1. Einrichung des Projekts und des Json-servers
 	- Json-Server ist ein gutes Tool für einfache Fake Backends
